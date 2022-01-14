@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Source Sans Pro-Regular;
+    src: url(assets/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+    font-family: Source Sans Pro-Bold;
+    src: url(assets/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+}
 body, h1, h2, h3, h4, h5, h6, p, button, a {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro-Regular', sans-serif;
 }
 a {
     color: #000;
@@ -45,8 +51,7 @@ a {
     margin-bottom: 40px;
 }
 .naitus-span-bold {
-    font-weight: 700
-    ;
+    font-family: 'Source Sans Pro-Bold', sans-serif;
 }
 .naitus-footer {
     width: 100%;
@@ -76,7 +81,7 @@ a {
     color: #000;
     text-align: center;
     font-size: 1.1em;
-    font-weight: 700;
+    font-family: 'Source Sans Pro-Bold';
     margin-bottom: 25px;
 }
 .header-nav {
